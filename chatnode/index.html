@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="chatApp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="node_modules/angular/angular.js"></script>
+  <script src="node_modules/angular-route/angular-route.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+
+  <script src="/public/js/app.js"></script>
+  <script src = "/public/route/route.js"></script>
+  <script src="/public/controller/chat.js"></script>
+  <script src = "/public/controller/controller.js"></script>
+  <script src="/public/factory/user.js"></script>
+  <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="public/css/angular.css">
+
+</head>
+<body>
+  <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+  <div class="container">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">Welcome</a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#!/">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <!-- <a class="nav-link" href="#!/chat">chat</a> -->
+        <li><a class="nav-link" href="#!/register" >register<span class="sr-only">(current)</span></a></li>
+        <li><a class="nav-link" href="#!/login">Login<span class="sr-only">(current)</span></a></li>
+      </li>
+
+    </ul>
+
+  </div>
+  </div>
+</nav>
+  <ng-view></ng-view>
+</body>
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en" ng-app="chatApp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src = "node_modules/angular/angular.js"></script>
+<script src="node_modules/angular-route/angular-route.js"></script>
+<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="public/css/angular.css">
+<script src = "/socket.io/socket.io.js"></script>
+<script src = "/public/js/app.js"></script>
+<script src = "/public/route/route.js"></script>
+<script src = "/public/controller/controller.js"></script>
+<script src = "/public/factory/user.js"></script>
+
+</head>
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid"> -->
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <!-- <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Welcome</a>
+      </div> -->
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#!">Home <span class="sr-only">(current)</span></a></li>
+          <li><a href="#!/register">register</a></li>
+          <li><a href="#!/login">Login</a></li>
+          <li><a href="#!profile">profile</a></li>
+
+        </ul> -->
+
+
+      <!-- </div>
+      /.navbar-collapse -->
+    <!-- </div>
+    /.container-fluid -->
+  <!-- </nav> -->
+
+  <!-- <div ng-view></div> -->
+
+
+
+<!--
+</body>
+</html> -->

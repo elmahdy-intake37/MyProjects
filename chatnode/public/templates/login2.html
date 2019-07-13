@@ -1,0 +1,9 @@
+
+      <form name="loginform"  ng-submit="submitted=true;login2(loginform.$valid)" novalidate  >
+        <input type="text" name="username" value="" placeholder="user name" required ng-model="user.name"><br>
+        <p class="error" ng-if="loginform.savedname.$error.required && submitted"> please enter userName </p>
+        <input type="password" name="password" value="" placeholder="password" required ng-model="user.password"><br>
+        <p class="error" ng-if="loginform.password.$error.required && submitted"> please enter password </p>
+
+        <input type="submit" value="Submit">
+      </form>

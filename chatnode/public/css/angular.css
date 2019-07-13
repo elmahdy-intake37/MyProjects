@@ -1,0 +1,17 @@
+input.ng-invalid.ng-not-empty{
+  border: 1px solid red;
+}
+input:focus,input:active{
+  outline : 0;
+}
+input.ng-valid.ng-not-empty{
+  border: 1px solid green;
+}
+input {
+  display: block;
+  margin-bottom:20 px;
+}
+p.error{
+  color:red;
+
+}

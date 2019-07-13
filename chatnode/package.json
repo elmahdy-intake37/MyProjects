@@ -1,0 +1,24 @@
+{
+  "name": "os-node-day02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server2.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-route": "^1.6.4",
+    "body-parser": "^1.17.1",
+    "bootstrap": "^4.0.0-alpha.6",
+    "express": "^4.15.2",
+    "mongodb": "^2.2.26",
+    "socket.io": "^1.7.3"
+  }
+}
